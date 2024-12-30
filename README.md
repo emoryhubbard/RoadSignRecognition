@@ -30,7 +30,7 @@ Compared to the previous model, the validation accuracy increased from 62% to 88
 
 However, in the process of creating this model, there was a bit of serendipity, as an earlier test model actually achieved higher accuracy, which will be described next.
 
-###IV. Custom 32x32 Architecture Results
+### IV. Custom 32x32 Architecture Results
 It was unexpected that a 32x32 image resizing would perform better than the model taking 100x100 images. It was only intended as a brief test before training the larger model.
 
 However, the results were better than all previous attempts:
