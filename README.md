@@ -2,6 +2,8 @@
 
 This CNN is an image classifer I created and fine-tuned for recognizing German road signs, for usage by a hypothetical self-driving car, and which achieved 92% accuracy. I experimented with several different architectures, including Xception-based models.
 
+The exact classification task is to identify one of 43 different types of German road signs based on an image input.
+
 Five different variations of road sign recognition models were developed in order to try as many approaches as feasible. A much higher performance is achievable, when any of these models is compared to performance of other state-of-the-art models for similar problems, and with more time to experiment and fine-tune, it is clear those performances can be matched based on the rate of improvement below.
 
 Source code for initializing and training the final model appears in [roadsign_32x32model.ipynb](https://github.com/emoryhubbard/RoadSignRecognition/blob/main/roadsign_32x32model.ipynb)
